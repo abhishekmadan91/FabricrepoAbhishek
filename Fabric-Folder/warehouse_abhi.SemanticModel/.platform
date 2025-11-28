@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "warehouse_abhi"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "828b94cb-8078-98f7-4021-82bc3b59747b"
+  }
+}

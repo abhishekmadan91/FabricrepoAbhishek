@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Warehouse",
+    "displayName": "viatris-warehouse"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "6ac514ac-4a8a-b06e-4a17-c9c78c2d4880"
+  }
+}

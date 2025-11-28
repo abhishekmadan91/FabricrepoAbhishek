@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "KQLQueryset",
+    "displayName": "Viatris-database-watcher_queryset",
+    "description": "Viatris-database-watcher_queryset"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "8d7c1f44-296c-a110-454b-910de870d459"
+  }
+}

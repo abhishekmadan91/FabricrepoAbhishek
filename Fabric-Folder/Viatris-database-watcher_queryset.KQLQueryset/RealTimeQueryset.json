@@ -1,0 +1,22 @@
+{
+  "queryset": {
+    "version": "1.0.0",
+    "dataSources": [
+      {
+        "id": "e1a39cb3-7ec0-4fd4-87da-728cf505772e",
+        "clusterUri": "",
+        "type": "Fabric",
+        "databaseItemId": "d24a378f-af46-bdac-4713-0a398a97b5e5",
+        "databaseItemName": "Viatris-database-watcher"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "9a1bf918-5864-4b03-805d-25f23e971402",
+        "content": "//***********************************************************************************************************\n// Here are two articles to help you get started with KQL:\n// KQL reference guide - https://aka.ms/KQLguide\n// SQL - KQL conversions - https://aka.ms/sqlcheatsheet\n//***********************************************************************************************************\n\n// Use \"take\" to view a sample number of records in the table and check the data.\nYOUR_TABLE_HERE\n| take 100\n\n// See how many records are in the table.\nYOUR_TABLE_HERE\n| count\n\n// This query returns the number of ingestions per hour in the given table.\nYOUR_TABLE_HERE\n| summarize IngestionCount = count() by bin(ingestion_time(), 1h)\n\n.add database [Viatris-database-watcher] admins ('aadapp=41c1f590-5dad-4f7f-9e2c-8597eddbd8c2;contoso.com');",
+        "title": "Tab",
+        "dataSourceId": "e1a39cb3-7ec0-4fd4-87da-728cf505772e"
+      }
+    ]
+  }
+}
